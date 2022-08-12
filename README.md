@@ -8,7 +8,7 @@ docker-compose up -d
 
 Start Apache Ozone:
 ```bash
-cd ozone
+cd ozone/compose/ozone
 docker-compose up -d
 ```
 
