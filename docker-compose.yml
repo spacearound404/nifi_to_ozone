@@ -1,0 +1,12 @@
+version: "3"
+services:
+  nifi:
+    image: apache/nifi:latest
+    environment:
+      - SINGLE_USER_CREDENTIALS_USERNAME=admin
+      - SINGLE_USER_CREDENTIALS_PASSWORD=ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB
+    ports:
+      - '8443:8443'
+    volumes:
+      - /home/user/Desktop/sandbox/nifi_to_ozone/payload.txt:/payload.txt
+      - /home/user/Desktop/sandbox/nifi_to_ozone/task.py:/task.py
