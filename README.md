@@ -11,3 +11,6 @@ Start Apache Ozone:
 cd ozone
 docker-compose up -d
 ```
+
+## Test
+For test needed to create some NiFi dataflow with using `task.py` script 
